@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="author" content="Muhammad Aleem">
-		<meta name="description" content="The coffee shop website">
-		<meta name="keywords" content="Software Engineer, Web developer, AI">
-		<title>5 Bucks Coffee Shop</title>
-		
-		<!--Style sheet and icon link -->
-		<link rel="shortcut icon" href="favicon.ico" />
-		<link rel="stylesheet" href="./vendor/normalize.css" />
-		<link rel="stylesheet" href="./pages/index.css" />
-		
-		<!--GOOGLE FONTS-->	
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
-	</head>
-	<body>
-	
-		<div class="page">
-			<header class="header">	</header>
-			
-			<main class="content">
-				<section class="recipes"> </section>
-				<section class="reservation"> </section>
-				<section class="menu"> </section>
-				<section class="about"> </section>				
-			</main>
-			
-			<footer class="footer"> </footer>
 
-		</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Muhammad Aleem">
+  <meta name="description" content="The coffee shop website">
+  <meta name="keywords" content="Software Engineer, Web developer, AI">
+  <title>5 Bucks Coffee Shop</title>
 
+  <!--Style sheet and icon link -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="./vendor/normalize.css" />
+  <link rel="stylesheet" href="./pages/index.css" />
 
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
 
-		</body>
+<body>
 
+  <div class="page">
+    <header class="header">
+      <nav class="nav">
+        <img src="./images/logo_coffeeshop_dark.svg" alt="logo" class="nav__logo"/>
+        <ul class="nav__links">
+          <li><a href="#content__recipes" class="nav__link">Recipes</a></li>
+          <li><a href="#" class="nav__link">Book a table</a></li>
+          <li><a href="#" class="nav__link">Menu</a></li>
+          <li><a href="#" class="nav__link">Contacts</a></li>
+        </ul>
+      </nav>
+      <h1 class="header__title"><span class="header__span-accent">Speciality Coffee</span>
+        in the triple peaks library
+      </h1>
+      <p class="header__description">Welcome to our study zone! We've got the
+        coffee to energize you and the cozy vibes to help you get creative.        
+      </p>
+      <img           
+           src="./images/inside_coffee_shop.png"
+           alt="coffee shop" 
+           class="header__image">
+      
+      <div class="header__footer">
+        <div>
+          <p class="header__paragraph">Hours:</p>
+          <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+          <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+        </div>  
+        <!--/*  
+        </div>
+        <p class="header__paragraph">Hours:</p>
+        <div class="header__footer_column">
+          <p class="header__footer_column-heading">Hours:</p>
+          <ul class="header__footer_list">
+            <li>Monday - Friday (10:00 - 19:00)</li>
+            <li>Saturday - Sunday (11:00 - 18:00)</li>
+          </ul>
+        </div>
+        */-->
+        <p class="header__paragraph header__paragraph-address">200 Success Avenue, The Town of Triple Peaks</p>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="recipes" id="content__recipes">
+        <h2 class="recipes__title">Recipies</h2>
+        <p class="recipes__subtitle">Check out some recipes we have collected for your home-brewing convinece</p>
+        <div class="recipes__videos">
+          <div>
+            <iframe
+                src="https://youtube.com/shorts/CCY_GadxlYU?si=TbOFSH0jcsZQEMrC"
+                    frameborder="0"
+                    class="recipes__iframe">        
+            </iframe>
+            <p class="recipes__video-caption">Flourless brownie Muffins<span></span>~1 min</p>
+          </div>
+          <div>
+            <iframe
+                  src="https://youtube.com/shorts/G7VEWeRXUc4?si=GYUEg_ND9pXCt_i8"
+                  frameborder="0"
+                  class="recipes__iframe">        
+          </iframe>
+          <p class="recipes__video-caption">Scalloped Patato Roll<span></span>~1 min</p>            
+          </div>
+        </div>
+      
+      </section>
+      <section class="reservation"> </section>
+      <section class="menu"> </section>
+      <section class="about"> </section>
+    </main>
+
+    <footer class="footer"> </footer>
+
+  </div>
+
+</body>
 
 </html>
