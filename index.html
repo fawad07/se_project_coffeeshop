@@ -27,10 +27,10 @@
       <nav class="nav">
         <img src="./images/logo_coffeeshop_dark.svg" alt="logo" class="nav__logo"/>
         <ul class="nav__links">
-          <li><a href="#content__recipes" class="nav__link">Recipes</a></li>
-          <li><a href="#" class="nav__link">Book a table</a></li>
-          <li><a href="#" class="nav__link">Menu</a></li>
-          <li><a href="#" class="nav__link">Contacts</a></li>
+          <li><a href="#recipes" class="nav__link">Recipes</a></li>
+          <li><a href="#reservation" class="nav__link">Book a table</a></li>
+          <li><a href="#menu" class="nav__link">Menu</a></li>
+          <li><a href="#about" class="nav__link">Contacts</a></li>
         </ul>
       </nav>
       <h1 class="header__title"><span class="header__span-accent">Speciality Coffee</span>
@@ -50,48 +50,41 @@
           <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
           <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
         </div>  
-        <!--/*  
-        </div>
-        <p class="header__paragraph">Hours:</p>
-        <div class="header__footer_column">
-          <p class="header__footer_column-heading">Hours:</p>
-          <ul class="header__footer_list">
-            <li>Monday - Friday (10:00 - 19:00)</li>
-            <li>Saturday - Sunday (11:00 - 18:00)</li>
-          </ul>
-        </div>
-        */-->
-        <p class="header__paragraph header__paragraph-address">200 Success Avenue, The Town of Triple Peaks</p>
+        
+        <p class="header__paragraph">200 Success Avenue, The Town of Triple Peaks</p>
       </div>
     </header>
 
     <main class="content">
-      <section class="recipes" id="content__recipes">
+      <section class="recipes" id="recipes">
         <h2 class="recipes__title">Recipies</h2>
         <p class="recipes__subtitle">Check out some recipes we have collected for your home-brewing convinece</p>
         <div class="recipes__videos">
           <div>
-            <iframe
-                src="https://youtube.com/shorts/CCY_GadxlYU?si=TbOFSH0jcsZQEMrC"
-                    frameborder="0"
-                    class="recipes__iframe">        
+            <iframe 
+                    src="https://www.youtube.com/embed/UFoypgGxo30?si=XlAEIL0C2NPQ4eTr" 
+                    title="YouTube video player" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                      
             </iframe>
-            <p class="recipes__video-caption">Flourless brownie Muffins<span></span>~1 min</p>
+            <p class="recipes__video-caption">Flourless brownie Muffins<span></span>~5 min</p>
           </div>
           <div>
-            <iframe
-                  src="https://youtube.com/shorts/G7VEWeRXUc4?si=GYUEg_ND9pXCt_i8"
-                  frameborder="0"
-                  class="recipes__iframe">        
-          </iframe>
-          <p class="recipes__video-caption">Scalloped Patato Roll<span></span>~1 min</p>            
+           <iframe 
+				src="https://www.youtube.com/embed/AEhBwiIEdj4?si=oW_KAM2-6Z5CsjrH" 
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+          <p class="recipes__video-caption">Scalloped Patato Roll<span></span>~2 min</p>            
           </div>
         </div>
       
       </section>
-      <section class="reservation"> </section>
-      <section class="menu"> </section>
-      <section class="about"> </section>
+      <section class="reservation" id="reservation"> </section>
+      <section class="menu" id="menu"> </section>
+      <section class="about" id="about"> </section>
     </main>
 
     <footer class="footer"> </footer>
