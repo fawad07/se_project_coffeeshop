@@ -74,6 +74,11 @@
 	line-height: 20px;
 	background-color: #2F80ED;
 	color: #FFFFFF;
+	transition: opacity 1s;
+}
+
+.form__button:hover{
+	opacity: 70%;
 }
 
 .form__checkbox{
