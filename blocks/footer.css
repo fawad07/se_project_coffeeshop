@@ -11,11 +11,13 @@
 
 .footer__content {
   display: flex;
+  justify-content: space-between;
+  /*margin: 0 80px 0 auto;*/
 }
 
 
 .footer__column_content_social {
-  margin: 0 80px 0 auto;
+  /*margin: 0 80px 0 auto;*/
 }
 
 .footer__logo {
