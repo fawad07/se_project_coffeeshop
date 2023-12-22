@@ -1,0 +1,20 @@
+
+.card{
+  width: 580px;
+}
+
+.card__title{
+  margin:0 0 32px 0;
+}
+
+.card__list-item{
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 16px 0;
+}
+
+.card__list-divider{
+  border-bottom: 2px solid #000000;
+  flex-grow: 1;
+  margin:0 10px 0 10px;
+}

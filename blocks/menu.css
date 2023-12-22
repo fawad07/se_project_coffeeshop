@@ -24,7 +24,6 @@
   margin: 0 auto 100px auto;
 }
 
-
 .menu__cards{
   display: flex;
   justify-content: center;
@@ -32,9 +31,10 @@
   gap: 100px;
   padding: 0;
   margin: 0;
-  list-style-type: none;
-  
+  list-style-type: none;  
 }
+
+/*
 
 .card{
   width: 580px;
@@ -55,3 +55,4 @@
   flex-grow: 1;
   margin:0 10px 0 10px;
 }
+*/
