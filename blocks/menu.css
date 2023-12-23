@@ -21,6 +21,11 @@
 .menu__subtitle{
   text-align: center;
   max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
   margin: 0 auto 100px auto;
 }
 

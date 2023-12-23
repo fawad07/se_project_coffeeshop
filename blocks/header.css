@@ -68,4 +68,5 @@
 
 .header__paragraph-address{
   margin: 40px 80px 0px 0px;  
+  z-index: 1;
 }
