@@ -11,6 +11,10 @@
 	line-height: 30px;
 }
 
+.card__list{
+	padding: 0;
+}
+
 .card__list-item{
 	display: flex;
 	list-style-type: none;

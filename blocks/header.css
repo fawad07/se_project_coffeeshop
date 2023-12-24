@@ -53,16 +53,11 @@
 }
 
 .header__paragraph{
-  margin: 0;
+  margin-top: auto;
   color: #6F6F6F;
   line-height: 20px;
   font-size: 16px;
   font-weight: 500;
   position: relative;
-  z-index: 1;
-}
-
-.header__paragraph-address{
-  margin: 40px 80px 0px 0px;  
   z-index: 1;
 }
