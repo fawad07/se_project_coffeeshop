@@ -1,21 +1,25 @@
-.menu{
-	background-image: url("../images/background_menu.svg");
-	padding: 100px 0 20px 0;
+.menu {
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #ffffff;
+  padding: 100px 0 20px 0;
 }
 
-.menu__title{
-	text-align: center;
-	font-family: Inter, "Arial", san-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 44px;
-	line-height: 52px;
-	color: #000000;
-	max-width: 780px;
-	margin: 100px auto 24px auto;
+.menu__title {
+  text-align: center;
+  font-family: Inter, "Arial", san-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #000000;
+  max-width: 780px;
+  margin: 100px auto 24px auto;
 }
 
-.menu__subtitle{
+.menu__subtitle {
   text-align: center;
   max-width: 780px;
   font-family: "Noto Serif", "Arial", san-serif;
@@ -26,11 +30,11 @@
   margin: 0 auto 100px auto;
 }
 
-.menu__cards{
+.menu__cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 100px;
   margin: 0 0 100px 0;
-  list-style-type: none;  
+  list-style-type: none;
 }

@@ -1,18 +1,18 @@
-@keyframes pulse{
+@keyframes pulse {
   0% {
-     opacity: 1;
+    opacity: 1;
   }
-  50%{
-     opacity: 0.6;
+  50% {
+    opacity: 0.6;
   }
-  100%{
-     opacity: 0;
-     transform: scale(1.2); 
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
   }
 }
 
 .about {
-  background-color: #0A2850;
+  background-color: #0a2850;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -65,6 +65,6 @@
   left: -129px;
 }
 
-.about__circle_animation_blurred{
-	animation: pulse 1.3s ease-in-out infinite;  
+.about__circle_animation_blurred {
+  animation: pulse 1.3s ease-in-out infinite;
 }
