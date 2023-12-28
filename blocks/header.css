@@ -7,6 +7,7 @@
   padding: 30px 80px 40px;
   background-image: url("../images/background_header.svg");
   background-color: #ffffff;
+  background-size: cover;
   position: relative;
   box-sizing: border-box;
 }
@@ -23,7 +24,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", "Arial", san-serif;
+  font-family: "Noto serif", "Inter", san-serif;
   font-style: italic;
   font-size: 60px;
   color: #2f80ed;
@@ -35,9 +36,12 @@
   max-height: 568px;
   top: 124px;
   right: 5px;
-  background-position: center;
+  object-fit: cover;
+  object-position: center;
+  /*background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  */
 }
 
 .header__description {
@@ -45,7 +49,7 @@
   line-height: 30px;
   margin: 28px 0 0;
   max-width: 683px;
-  font-family: "Noto Serif", "Arial", san-serif;
+  font-family: "Noto serif", "Inter", san-serif;
   font-size: 20px;
   line-height: 30px;
   z-index: 1;
@@ -61,16 +65,11 @@
 }
 
 .header__paragraph {
-  margin: 0 0 0 0;
+  margin: auto 0 0 0;
   color: #6f6f6f;
   line-height: 20px;
   font-size: 16px;
   font-weight: 500;
   position: relative;
-  z-index: 1;
-}
-
-.header-paragraph-address {
-  margin: 40px 0 0 0;
   z-index: 1;
 }
