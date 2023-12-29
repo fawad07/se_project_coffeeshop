@@ -13,7 +13,7 @@
   color: #ffffff;
   padding: 100px 0 0 80px;
   margin: 0;
-  font-family: "Inter", "Noto serif", san-serif;
+  font-family: "Inter", "Noto serif", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -21,7 +21,7 @@
 }
 
 .recipes__subtitle {
-  font-family: "Noto Serif", "Inter", san-serif;
+  font-family: "Noto Serif", "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,7 +42,7 @@
   justify-content: space-between;
   color: #ffffff;
   margin: 24px 0 0 0;
-  font-family: "Inter", "Noto serif", san-serif;
+  font-family: "Inter", "Noto serif", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
